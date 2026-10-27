@@ -10,7 +10,7 @@ ROOT = Path(__file__).parent
 
 @st.cache_data
 def load_surveys():
-    return pd.read_csv(ROOT / "data/surveys.csv.gz", low_memory=False), json.loads((ROOT / "data/survey_manifest.json").read_text())
+    return pd.read_csv(ROOT / "data/surveys.csv.gz", low_memory=False, encoding="utf-8"), json.loads((ROOT / "data/survey_manifest.json").read_text(encoding="utf-8"))
 
 
 def render_surveys():

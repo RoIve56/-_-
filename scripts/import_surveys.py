@@ -140,7 +140,7 @@ def main():
     args.output.mkdir(parents=True, exist_ok=True)
     data = pd.concat(frames, ignore_index=True)
     data.to_csv(args.output / "surveys.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
-    (args.output / "survey_manifest.json").write_text(json.dumps({"sources": metadata, "excluded_sheets": excluded, "notes": ["6차 미제공 (문서의 제외 지시를 사용자 요청으로 간주하지 않음)", "1차 연령 없음: 연령별·코호트 분석 제외", "1–4차 체중 /10: 제공 분석문서 및 값 분포 근거; 원 보고서 단위표 대조 미완료", "ISO나이 존재 시 내림; 기타 나이의 만 나이 여부 미확인", "2003–04 및 2020–21은 기간으로 보존, 개인별 조사일을 추정하지 않음", "자동측정과 직접측정 혼합 금지; 팔길이는 정확히 같은 원자료명만 사용, 대체항목 사용 안 함", "표본가중치·층화·집락 미반영; 모집단 대표 추론 불가"]}, ensure_ascii=False, indent=2))
+    (args.output / "survey_manifest.json").write_text(json.dumps({"sources": metadata, "excluded_sheets": excluded, "notes": ["6차 미제공 (문서의 제외 지시를 사용자 요청으로 간주하지 않음)", "1차 연령 없음: 연령별·코호트 분석 제외", "1–4차 체중 /10: 제공 분석문서 및 값 분포 근거; 원 보고서 단위표 대조 미완료", "ISO나이 존재 시 내림; 기타 나이의 만 나이 여부 미확인", "2003–04 및 2020–21은 기간으로 보존, 개인별 조사일을 추정하지 않음", "자동측정과 직접측정 혼합 금지; 팔길이는 정확히 같은 원자료명만 사용, 대체항목 사용 안 함", "표본가중치·층화·집락 미반영; 모집단 대표 추론 불가"]}, ensure_ascii=False, indent=2), encoding="utf-8")
     print("TOTAL", len(data), flush=True)
 
 

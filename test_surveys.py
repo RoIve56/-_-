@@ -1,3 +1,4 @@
+from pathlib import Path
 import numpy as np
 import pandas as pd
 from survey_analysis import common_age_standardization, stable_cohorts
@@ -40,7 +41,7 @@ def test_invalid_height_not_used_for_derived_indices():
 def test_actual_sources_have_expected_support():
     import json
     data = pd.read_csv("data/surveys.csv.gz", low_memory=False)
-    manifest = json.load(open("data/survey_manifest.json"))
+    manifest = json.loads(Path("data/survey_manifest.json").read_text(encoding="utf-8"))
     assert set(data.wave) == {1, 2, 3, 4, 5, 7, 8}
     assert data[data.wave == 1].age.isna().all()
     assert data[data.population == "휠체어 사용자·척수손상"].height.isna().all()
@@ -69,3 +70,22 @@ def test_dashboard_filters_standardization_and_population():
     assert app.metric[1].value == "1,014"
     app.sidebar.selectbox[0].set_value("휠체어 사용자·척수손상").run()
     assert not app.exception
+
+
+def test_loading_under_windows_legacy_default_encoding(monkeypatch):
+    from pathlib import Path
+    from surveys import load_surveys
+    original_open = Path.open
+
+    def windows_open(self, mode="r", buffering=-1, encoding=None, errors=None, newline=None):
+        if "b" not in mode and encoding is None:
+            encoding = "cp1252"
+        return original_open(self, mode, buffering, encoding, errors, newline)
+
+    # Reproduce the screenshot's default codepage rather than relying on Linux UTF-8.
+    monkeypatch.setattr(Path, "open", windows_open)
+    load_surveys.clear()
+    data, manifest = load_surveys()
+    assert len(data) == 84121
+    assert "6차 미제공" in manifest["notes"][0]
+    load_surveys.clear()
