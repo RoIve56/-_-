@@ -1,0 +1,991 @@
+{
+  "sources": [
+    {
+      "file": "5차 인체치수조사(2003~04)_치수데이터(공개용).xlsx",
+      "sheet": "5차 직접",
+      "wave": 5,
+      "rows": 15576,
+      "header_row": 7,
+      "population": "일반",
+      "period": "2003–2004",
+      "age_basis": "ISO나이 내림",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 1,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 7,
+          "original": "키"
+        },
+        "weight": {
+          "column_1based": 37,
+          "original": "몸무게"
+        },
+        "waist": {
+          "column_1based": 48,
+          "original": "허리둘레"
+        },
+        "hip": {
+          "column_1based": 50,
+          "original": "엉덩이둘레"
+        },
+        "chest": {
+          "column_1based": 45,
+          "original": "가슴둘레"
+        },
+        "leg": {
+          "column_1based": 15,
+          "original": "샅높이"
+        },
+        "sitting": {
+          "column_1based": 85,
+          "original": "앉은키"
+        },
+        "arm": {
+          "column_1based": 73,
+          "original": "팔길이"
+        },
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 2292
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 504
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 2292
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 15576
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "dbbecaea781f0221b14543121669bfa1ae2b0c774fa8c72867a357c334581691"
+    },
+    {
+      "file": "4차 인체치수조사(1997)_치수데이터(공개용).xlsx",
+      "sheet": "4차",
+      "wave": 4,
+      "rows": 12893,
+      "header_row": 7,
+      "population": "일반",
+      "period": "1997",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 10,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 5,
+          "original": "키"
+        },
+        "weight": {
+          "column_1based": 84,
+          "original": "몸무게"
+        },
+        "waist": {
+          "column_1based": 48,
+          "original": "허리둘레"
+        },
+        "hip": {
+          "column_1based": 50,
+          "original": "엉덩이둘레"
+        },
+        "chest": {
+          "column_1based": 46,
+          "original": "가슴둘레"
+        },
+        "leg": {
+          "column_1based": 13,
+          "original": "샅높이"
+        },
+        "sitting": {
+          "column_1based": 54,
+          "original": "앉은키"
+        },
+        "arm": null,
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 896
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 12893
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 12893
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "ede81e6901b8652e037249bba4b868ebfb8db7cfd9855dd116f9b297c331ffe3"
+    },
+    {
+      "file": "1차 인체치수조사(1979)_치수데이터(공개용).xlsx",
+      "sheet": "1차",
+      "wave": 1,
+      "rows": 13737,
+      "header_row": 7,
+      "population": "일반",
+      "period": "1979",
+      "age_basis": "연령 없음",
+      "missing_age": 13737,
+      "unmapped_sex": 0,
+      "weight_divisor": 10,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 5,
+          "original": "신장"
+        },
+        "weight": {
+          "column_1based": 116,
+          "original": "체중"
+        },
+        "waist": {
+          "column_1based": 37,
+          "original": "허리둘레"
+        },
+        "hip": {
+          "column_1based": 40,
+          "original": "엉덩이둘레"
+        },
+        "chest": {
+          "column_1based": 34,
+          "original": "가슴둘레"
+        },
+        "leg": {
+          "column_1based": 17,
+          "original": "샅높이"
+        },
+        "sitting": {
+          "column_1based": 78,
+          "original": "앉은키"
+        },
+        "arm": null,
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 3,
+          "missing_input": 13061
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 139
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 12913
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 12801
+        },
+        "chest": {
+          "out_of_bounds": 1,
+          "missing_input": 12908
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 13179
+        },
+        "sitting": {
+          "out_of_bounds": 1,
+          "missing_input": 13647
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 13737
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 13737
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "4da785928ab22126a472bbf727b92fc1d468ed7b3325d705891af88dd5bbbe84"
+    },
+    {
+      "file": "2차 인체치수조사(1986)_치수데이터(공개용).xlsx",
+      "sheet": "2차",
+      "wave": 2,
+      "rows": 19009,
+      "header_row": 7,
+      "population": "일반",
+      "period": "1986",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 10,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 5,
+          "original": "신장"
+        },
+        "weight": {
+          "column_1based": 84,
+          "original": "체중"
+        },
+        "waist": {
+          "column_1based": 38,
+          "original": "허리둘레"
+        },
+        "hip": {
+          "column_1based": 39,
+          "original": "엉덩이둘레"
+        },
+        "chest": {
+          "column_1based": 35,
+          "original": "가슴둘레"
+        },
+        "leg": null,
+        "sitting": {
+          "column_1based": 17,
+          "original": "앉은키"
+        },
+        "arm": null,
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 19009
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 19009
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 19009
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "75d18d3a29b22a1d7f39d8f12ce4dbfcc0a09c5176df66a2afa6f70e4ae3d069"
+    },
+    {
+      "file": "7차 인체치수조사(2015)_치수데이터(공개용).xlsx",
+      "sheet": "7차(2015)",
+      "wave": 7,
+      "rows": 6420,
+      "header_row": 7,
+      "population": "일반",
+      "period": "2015",
+      "age_basis": "ISO나이 내림",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 1,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 21,
+          "original": "키"
+        },
+        "weight": {
+          "column_1based": 49,
+          "original": "몸무게"
+        },
+        "waist": {
+          "column_1based": 60,
+          "original": "허리둘레"
+        },
+        "hip": {
+          "column_1based": 63,
+          "original": "엉덩이둘레"
+        },
+        "chest": {
+          "column_1based": 57,
+          "original": "가슴둘레"
+        },
+        "leg": {
+          "column_1based": 35,
+          "original": "샅높이"
+        },
+        "sitting": {
+          "column_1based": 91,
+          "original": "앉은키"
+        },
+        "arm": {
+          "column_1based": 82,
+          "original": "팔길이"
+        },
+        "bmi_source": {
+          "column_1based": 11,
+          "original": "BMI"
+        }
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 7
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 3
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 3
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 5
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 8
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "c836fb9045c8422f58da4bdfab39522b5f3f03fab0da00a56894feb7db79cb0f"
+    },
+    {
+      "file": "3차 인체치수조사(1992)_치수데이터(공개용).xlsx",
+      "sheet": "3차",
+      "wave": 3,
+      "rows": 8924,
+      "header_row": 7,
+      "population": "일반",
+      "period": "1992",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 10,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 5,
+          "original": "키"
+        },
+        "weight": {
+          "column_1based": 88,
+          "original": "몸무게"
+        },
+        "waist": {
+          "column_1based": 47,
+          "original": "허리둘레"
+        },
+        "hip": {
+          "column_1based": 49,
+          "original": "엉덩이둘레"
+        },
+        "chest": {
+          "column_1based": 45,
+          "original": "가슴둘레"
+        },
+        "leg": {
+          "column_1based": 13,
+          "original": "샅높이"
+        },
+        "sitting": {
+          "column_1based": 53,
+          "original": "앉은키"
+        },
+        "arm": null,
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 1
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 8924
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 8924
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "ab39306fae29182d6e9dbb8598a25f802ece6318047a72fe16e658d77663518a"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(1~2차년도) 직접측정",
+      "wave": 8,
+      "rows": 5092,
+      "header_row": 7,
+      "population": "일반",
+      "period": "2020–2021",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 1,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 7,
+          "original": "002. 키 "
+        },
+        "weight": {
+          "column_1based": 130,
+          "original": "125. 몸무게 "
+        },
+        "waist": {
+          "column_1based": 50,
+          "original": "045. 허리둘레 "
+        },
+        "hip": {
+          "column_1based": 53,
+          "original": "048. 엉덩이둘레 "
+        },
+        "chest": {
+          "column_1based": 46,
+          "original": "041. 가슴둘레 "
+        },
+        "leg": {
+          "column_1based": 18,
+          "original": "013. 샅높이 "
+        },
+        "sitting": {
+          "column_1based": 89,
+          "original": "084. 앉은키 "
+        },
+        "arm": {
+          "column_1based": 81,
+          "original": "076. 팔길이 "
+        },
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 5092
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "ea81a5417f869e3cfb5e19dff191add3f5328ee60a989f524d58a03c6816dc7b"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(3차년도) 직접측정",
+      "wave": 8,
+      "rows": 1014,
+      "header_row": 1,
+      "population": "고령자 별도조사",
+      "period": "2022",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 1,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 6,
+          "original": "002. 키"
+        },
+        "weight": {
+          "column_1based": 77,
+          "original": "073. 몸무게 "
+        },
+        "waist": {
+          "column_1based": 37,
+          "original": "033. 허리둘레"
+        },
+        "hip": {
+          "column_1based": 39,
+          "original": "035. 엉덩이둘레"
+        },
+        "chest": {
+          "column_1based": 33,
+          "original": "029. 가슴둘레"
+        },
+        "leg": {
+          "column_1based": 13,
+          "original": "009. 샅높이"
+        },
+        "sitting": {
+          "column_1based": 51,
+          "original": "047. 앉은키"
+        },
+        "arm": {
+          "column_1based": 50,
+          "original": "046. 팔길이"
+        },
+        "bmi_source": {
+          "column_1based": 91,
+          "original": "기타6. BMI"
+        }
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 30
+        }
+      },
+      "non_observation_rows_excluded": [
+        762
+      ],
+      "sha256": "ea81a5417f869e3cfb5e19dff191add3f5328ee60a989f524d58a03c6816dc7b"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(4차년도) 3D 직접측정 및 계산식(312-315)",
+      "wave": 8,
+      "rows": 1118,
+      "header_row": 1,
+      "population": "아동청소년 (3D 참여자 직접측정)",
+      "period": "2023",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 1,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": {
+          "column_1based": 4,
+          "original": "312. 키"
+        },
+        "weight": {
+          "column_1based": 5,
+          "original": "313. 몸무게"
+        },
+        "waist": null,
+        "hip": null,
+        "chest": {
+          "column_1based": 6,
+          "original": "314. 가슴둘레"
+        },
+        "leg": null,
+        "sitting": null,
+        "arm": null,
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 1118
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 1118
+        },
+        "chest": {
+          "out_of_bounds": 3,
+          "missing_input": 0
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 1118
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 1118
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 1118
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 1118
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "ea81a5417f869e3cfb5e19dff191add3f5328ee60a989f524d58a03c6816dc7b"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(5차년도) 직접측정(휠체어 사용 척수 손상 장애인_남)",
+      "wave": 8,
+      "rows": 246,
+      "header_row": 2,
+      "population": "휠체어 사용자·척수손상",
+      "period": "2024",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 1,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": null,
+        "weight": {
+          "column_1based": 4,
+          "original": "몸무게"
+        },
+        "waist": null,
+        "hip": null,
+        "chest": null,
+        "leg": null,
+        "sitting": {
+          "column_1based": 5,
+          "original": "앉은키"
+        },
+        "arm": null,
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 246
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 246
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 246
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 246
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 246
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 246
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 246
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "ea81a5417f869e3cfb5e19dff191add3f5328ee60a989f524d58a03c6816dc7b"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(5차년도) 직접측정(휠체어 사용 척수 손상 장애인_여)",
+      "wave": 8,
+      "rows": 92,
+      "header_row": 2,
+      "population": "휠체어 사용자·척수손상",
+      "period": "2024",
+      "age_basis": "원자료 나이 (산정법 확인 필요)",
+      "missing_age": 0,
+      "unmapped_sex": 0,
+      "weight_divisor": 1,
+      "length_divisor": 10,
+      "column_mapping": {
+        "height": null,
+        "weight": {
+          "column_1based": 4,
+          "original": "몸무게"
+        },
+        "waist": null,
+        "hip": null,
+        "chest": null,
+        "leg": null,
+        "sitting": {
+          "column_1based": 5,
+          "original": "앉은키"
+        },
+        "arm": null,
+        "bmi_source": null
+      },
+      "quality": {
+        "height": {
+          "out_of_bounds": 0,
+          "missing_input": 92
+        },
+        "weight": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "waist": {
+          "out_of_bounds": 0,
+          "missing_input": 92
+        },
+        "hip": {
+          "out_of_bounds": 0,
+          "missing_input": 92
+        },
+        "chest": {
+          "out_of_bounds": 0,
+          "missing_input": 92
+        },
+        "leg": {
+          "out_of_bounds": 0,
+          "missing_input": 92
+        },
+        "sitting": {
+          "out_of_bounds": 0,
+          "missing_input": 0
+        },
+        "arm": {
+          "out_of_bounds": 0,
+          "missing_input": 92
+        },
+        "bmi_source": {
+          "out_of_bounds": 0,
+          "missing_input": 92
+        }
+      },
+      "non_observation_rows_excluded": [],
+      "sha256": "ea81a5417f869e3cfb5e19dff191add3f5328ee60a989f524d58a03c6816dc7b"
+    }
+  ],
+  "excluded_sheets": [
+    {
+      "file": "5차 인체치수조사(2003~04)_치수데이터(공개용).xlsx",
+      "sheet": "5차 3차원",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(1~2차년도) 3D 측정",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(3차년도) 3D 전신 자동측정",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(3차년도) 3D 머리 자동측정",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(3차년도) 3D 발 자동측정",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(3차년도) 3D 손 자동측정",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(3차년도) 3D 직접측정",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(4차년도) 3D 전신 자동측정(001-178)",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(4차년도) 3D 머리 자동측정(179-228)",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(4차년도) 3D 발 자동측정(229-272)",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    },
+    {
+      "file": "8차 인체치수조사(2020~24)_치수데이터(공개용).xlsx",
+      "sheet": "(4차년도) 3D 손 자동측정(273-311)",
+      "reason": "3D 자동/별도 측정: 직접측정과 혼합하지 않음"
+    }
+  ],
+  "notes": [
+    "6차 미제공 (문서의 제외 지시를 사용자 요청으로 간주하지 않음)",
+    "1차 연령 없음: 연령별·코호트 분석 제외",
+    "1–4차 체중 /10: 제공 분석문서 및 값 분포 근거; 원 보고서 단위표 대조 미완료",
+    "ISO나이 존재 시 내림; 기타 나이의 만 나이 여부 미확인",
+    "2003–04 및 2020–21은 기간으로 보존, 개인별 조사일을 추정하지 않음",
+    "자동측정과 직접측정 혼합 금지; 팔길이는 정확히 같은 원자료명만 사용, 대체항목 사용 안 함",
+    "표본가중치·층화·집락 미반영; 모집단 대표 추론 불가"
+  ]
+}
